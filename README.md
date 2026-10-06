@@ -50,3 +50,12 @@ Production validation:
 npm run build
 npm start
 ```
+
+
+## Production V1.1 — Privacy, Legal & Analytics
+
+This update adds ScoreBoard-specific Privacy Policy, Terms of Use, Cookie Policy, and an optional Plausible Analytics integration.
+
+Analytics is intentionally disabled until the production Plausible site-specific script is configured. Set `NEXT_PUBLIC_PLAUSIBLE_SCRIPT_SRC` to the exact site installation script URL supplied by Plausible for the final ScoreBoard domain. The integration is designed around Plausible's current site-specific installation model.
+
+Before public launch, Bitstar should have the legal text reviewed by its legal counsel and confirm the final governing-law/jurisdiction language.

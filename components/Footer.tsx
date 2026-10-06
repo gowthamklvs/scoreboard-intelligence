@@ -112,11 +112,12 @@ export function Footer() {
             © 2026 Bitstar Technologies. All rights reserved.
           </p>
 
-          <div className="flex flex-wrap gap-x-7 gap-y-3 text-[10px] tracking-[0.08em] text-white/32">
+          <div className="flex flex-wrap items-center gap-x-7 gap-y-3 text-[10px] tracking-[0.08em] text-white/32">
+            <a href="/privacy" className="transition hover:text-white/70">Privacy Policy</a>
+            <a href="/terms" className="transition hover:text-white/70">Terms of Use</a>
+            <a href="/cookies" className="transition hover:text-white/70">Cookie Policy</a>
             <span>Bitstar®</span>
             <span>ScoreBoard Intelligence™</span>
-            <span>Bitstar Software Edge Agent™</span>
-            <span>Engineering. Intelligence. Infrastructure.</span>
           </div>
         </div>
       </div>
